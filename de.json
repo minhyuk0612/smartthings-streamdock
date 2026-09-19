@@ -1,0 +1,14 @@
+{
+  "Name": "Counter",
+  "Description": "A click-counter example plugin",
+  "Category": "Counter",
+  "com.example.streamdock.counter.count": {
+    "Name": "Counter",
+    "Tooltip": "Click to count up"
+  },
+  "Localization": {
+    "Step": "Step",
+    "Current Count": "Current Count",
+    "Reset": "Reset"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Name": "SmartThings",
+  "Description": "Control Samsung SmartThings devices from StreamDock.",
+  "Category": "SmartThings",
+  "com.smartthings.streamdock.control.toggle": {
+    "Name": "Device Toggle",
+    "Tooltip": "Turn a SmartThings device on or off."
+  },
+  "com.smartthings.streamdock.control.brightness": {
+    "Name": "Brightness",
+    "Tooltip": "Adjust SmartThings device brightness."
+  },
+  "com.smartthings.streamdock.control.colortemperature": {
+  "Name": "Color Temperature",
+  "Tooltip": "Adjust SmartThings device color temperature."
+  },
+  "Localization": {}
+}

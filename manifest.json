@@ -1,0 +1,105 @@
+{
+  "SDKVersion": 1,
+  "Author": "Minhyuk",
+  "Name": "SmartThings",
+  "Description": "Control Samsung SmartThings devices from StreamDock.",
+  "Category": "SmartThings",
+  "Icon": "static/App-logo.svg",
+  "CategoryIcon": "static/App-logo.svg",
+  "URL": "https://developer.smartthings.com/",
+  "Version": "1.0.0",
+  "CodePathWin": "plugin/index.js",
+  "CodePathMac": "plugin/index.js",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    },
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "3.10.188.226"
+  },
+  "Nodejs": {
+    "Version": "20"
+  },
+  "Actions": [
+  {
+    "UUID": "com.smartthings.streamdock.control.toggle",
+    "Name": "Device Toggle",
+    "Tooltip": "Turn a SmartThings device on or off",
+    "Icon": "static/App-logo.svg",
+    "PropertyInspectorPath": "propertyInspector/toggle/index.html",
+    "Controllers": [
+      "Keypad"
+    ],
+    "DisableAutomaticStates": true,
+    "UserTitleEnabled": true,
+    "SupportedInMultiActions": true,
+    "Settings": {
+      "deviceId": "",
+      "deviceLabel": ""
+    },
+    "States": [
+      {
+        "Image": "static/App-logo.svg",
+        "TitleAlignment": "center",
+        "FontSize": "12"
+      }
+    ]
+  },
+  {
+  "UUID": "com.smartthings.streamdock.control.brightness",
+  "Name": "Brightness",
+  "Tooltip": "Adjust SmartThings device brightness",
+  "Icon": "static/App-logo.svg",
+  "PropertyInspectorPath": "propertyInspector/toggle/index.html",
+  "Controllers": [
+    "Knob"
+  ],
+  "DisableAutomaticStates": true,
+  "UserTitleEnabled": true,
+  "SupportedInMultiActions": false,
+  "Settings": {
+    "deviceId": "",
+    "deviceLabel": ""
+  },
+  "States": [
+    {
+      "Image": "static/App-logo.svg",
+      "TitleAlignment": "middle",
+      "FontSize": "12",
+      "showTitle": true
+    }
+  ]
+},
+{
+  "UUID": "com.smartthings.streamdock.control.colortemperature",
+  "Name": "Color Temperature",
+  "Tooltip": "Adjust SmartThings device color temperature",
+  "Icon": "static/App-logo.svg",
+  "Controllers": [
+    "Knob"
+  ],
+  "DisableAutomaticStates": true,
+  "UserTitleEnabled": true,
+  "SupportedInMultiActions": false,
+  "PropertyInspectorPath": "propertyInspector/toggle/index.html",
+  "Settings": {
+    "deviceId": "",
+    "deviceLabel": ""
+  },
+  "States": [
+    {
+      "Image": "static/App-logo.svg",
+      "TitleAlignment": "middle",
+      "FontSize": "12",
+      "showTitle": true
+    }
+  ]
+}
+]
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "SmartThings",
+  "Description": "StreamDock에서 Samsung SmartThings 기기를 제어합니다.",
+  "Category": "SmartThings",
+
+  "com.smartthings.streamdock.control.toggle": {
+    "Name": "Device Toggle",
+    "Tooltip": "SmartThings 기기를 켜거나 끕니다."
+  },
+
+  "com.smartthings.streamdock.control.brightness": {
+    "Name": "Brightness",
+    "Tooltip": "다이얼로 SmartThings 기기의 밝기를 조절합니다."
+  },
+  "com.smartthings.streamdock.control.colortemperature": {
+  "Name": "색온도",
+  "Tooltip": "다이얼로 SmartThings 기기의 색온도를 조절합니다."
+  },
+
+  "Localization": {}
+}
